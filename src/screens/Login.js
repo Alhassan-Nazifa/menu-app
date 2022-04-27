@@ -1,19 +1,10 @@
 import React from "react";
-import Router from "router";
 import {Link} from "react-router-dom"
 
 function Login() {
   return (
-    <form className="form justify-content-md-center">
+    <form className="form">
       <div className="col-sm-12 col-md-6 col-1g-4 col-x1-4 m-3 p-3 bg-info">
-        <div className="form-group m-2">
-          <label htmlFor="username">username</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Enter username"
-          />
-        </div>
         <div className="form-group m-2">
           <label htmlFor="email">email</label>
           <input
@@ -22,6 +13,7 @@ function Login() {
             placeholder="Enter email"
           />
         </div>
+        
         <div className="form-group m-2">
           <label htmlFor="password">password</label>
           <input
@@ -41,4 +33,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login
